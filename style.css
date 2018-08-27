@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.character-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.character-name input {
+    margin-left: 10px;
+}
+
+.character-classes {
+    margin-top: 20px;
+}
+
+.character-gender-section {
+    margin-top: 20px;
+}
+
+.character-gender-section span select {
+    margin-left: 10px;
+}
+
+.character-photo {
+    width: 200px;
+    height: 314px;
+    margin-left: 50px;
+}
+
+.all-skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.skill {
+    margin-top: 5px;
+}
+
+.skill input {
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.character-section h1 {
+    margin-bottom: 0px;
+}
+
+.character-section h3 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.character-section ul {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.character-section ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.character-section ul li:first-child {
+    padding-top: 10px;
+    text-decoration-line: none;
+}
